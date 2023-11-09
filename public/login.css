@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Open Sans', sans-serif;
+	}
+body{
+background: #7d818b;	
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height:90vh;	
+}
+.box{
+	background: #fdfdfd;
+	display: flex;
+	flex-direction: column;
+	padding: 25px 25px;
+	border-radius: 20px;
+	box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.field input{
+	margin-top: 10px;
+}
+.form-box{
+	width: 400px;
+	margin: 0px 10px;
+}
+.form-box header{
+	font-size: 25px;
+	font-weight:600;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #CCC;
+	margin-bottom: 10px;
+	
+}
+.form-box form .field{
+	display: flex;
+	margin-bottom: 10px;
+	flex-direction: column;
+}
+.form-box form .input input{
+	height:40px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.btn{
+	height: 35px;
+	background: rgba(97, 61, 168, 0.8);
+	border:0;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	transition: all .3s;
+	margin-top: 10px;
+	padding: 0px 10px;
+	
+}
+.btn:hover{
+	background: rgba(79, 54, 129, 0.9);
+}
+.submit{
+	width: 100%;
+}
+.links{
+  margin-top: 15px;
+  text-align: center;
+}
+.links a{
+  text-decoration: none;
+	
+}
+.message{
+text-align: center;
+background: #f9f9f9;
+padding: 15px 0px;
+border:1px solid #699053;
+border-radius: 10px;
+margin-bottom: 10px;
+color: red;
+	}
+.button{
+	cursor: pointer;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #f9f9f9;
+	background-color: #7d818b;
+}
+a.button:hover{
+	background-color: rgba(0,0,0,0.1);
+}
